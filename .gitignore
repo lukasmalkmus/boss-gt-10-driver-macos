@@ -1,0 +1,17 @@
+# Build output. Every target writes here, including the plug-in bundle.
+build/
+
+# Scratch space for probe captures and review notes.
+.tmp/
+
+# A hand-run compiler drops these next to the source instead of in build/.
+*.o
+*.dSYM/
+
+# macOS
+.DS_Store
+
+# ripwire index state, local to one checkout and regenerated on demand. The
+# field notes in .ripwire_notes are knowledge, so they stay tracked.
+.ripwire_quality_acks
+.ripwire_quality_baseline

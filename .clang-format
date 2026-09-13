@@ -1,0 +1,17 @@
+# Tuned to the existing hand-formatted style, so adopting the formatter is not a
+# rewrite: 4 spaces, 100 columns, pointer bound to the name, alignment left to
+# the author except in macro blocks.
+BasedOnStyle: LLVM
+IndentWidth: 4
+ObjCBlockIndentWidth: 4
+ColumnLimit: 100
+PointerAlignment: Right
+AlignConsecutiveMacros: Consecutive
+AlignConsecutiveAssignments: Consecutive
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AllowShortCaseLabelsOnASingleLine: true
+SpacesBeforeTrailingComments: 2
+BreakBeforeBraces: Attach
+SpaceAfterCStyleCast: false
+SortIncludes: false
